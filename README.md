@@ -7,6 +7,12 @@ Import links and files from a Hipchat room to Delicious.com
 1. Open hiplicious.py and update the config with your creds (see below)
 2. Run that sh-t
 
+hiplicious.py will find any URLs in your logs (and optionally your file attachments too), and post them to Delicious.com. 
+
+- The message text will be included as a comment (with the URL stripped out).
+- The message author will be included as a tag
+- Any hashtags in the message will be included as tags
+
 ## Examples
 
 Import everything
